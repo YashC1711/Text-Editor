@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import iconimage from "/Users/yashchinawale/Desktop/Yash/React Js/my-app/src/icons8-dark-mode-67.png";
+import iconimage from "../icons8-dark-mode-67.png";
 
 export default function Navbar(props) {
   return (

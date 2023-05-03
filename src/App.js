@@ -25,13 +25,6 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#223b7b";
       showAlert("Dark Mode Enabled", "success");
-      // document.title = "TextEditor - Dark Mode";
-      // setInterval(() => {
-      //   document.title = "TextEditor - ....... Mode";
-      // }, 2000);
-      // setInterval(() => {
-      //   document.title = "Install";
-      // }, 1500);
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
